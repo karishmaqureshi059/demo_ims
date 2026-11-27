@@ -1,0 +1,19 @@
+{
+  "name": "inventory-management-website",
+  "version": "1.0.0",
+  "description": "A frontend-only, multi-role inventory management workspace built with HTML5, CSS3 and vanilla JavaScript (ES6 modules). Chart.js is loaded from the jsDelivr CDN; there are no build steps and no other dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "node server.js",
+    "serve": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "serve": "^10.0.2",
+    "vite": "^8.3.8"
+  }
+}
